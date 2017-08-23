@@ -1,0 +1,7 @@
+init:
+- ps: Install-Product node 6
+
+test_script:
+- npm install runas --loglevel verbose
+
+build: off
